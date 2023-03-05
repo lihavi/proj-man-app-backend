@@ -1,4 +1,6 @@
-class ApplicationController < Sinatra::Base
+class UserController < Sinatra::Base
   set :default_content_type, 'application/json'
-  
-end
+  # Add routes
+  get "/test" do
+      Welcome 
+    end
