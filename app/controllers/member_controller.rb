@@ -30,4 +30,6 @@ class MemberController < Sinatra::Base
     member.destroy
     member.to_json
   end
+
+  
 end
