@@ -48,5 +48,7 @@ This application allows users to
 * A user should be able delete a project.
 * A user should be able to view all the status updates of the project.
 
+## Author
+Vivian Njoroge
 ## License
 This application is licensed under the Apache 2.0
