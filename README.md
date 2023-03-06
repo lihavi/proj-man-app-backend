@@ -52,22 +52,36 @@ This application allows users to
 Database schema definitions
 
 USER
-| COLUMN   | DATA
-TYPE
-          |
-DESCRIPTION
-      |          
-|---------|      
---------------------------------------- ------|
-------------------------------------|
-| id 
-Integer
-           | Unique
- Unique identifier.                  |
-| title       | String                                          | The first part of meme (intro)             |
-| message | String                                          | second part of meme (punchline)  |
-| updated_at    | Date      | The date the user was updated.        |
-| createdAt     | Date      | The date the user was created.        |
+|| Column Name       | Data Type     | Description                                      |
+|-------------------|---------------|--------------------------------------------------|
+| id                | integer       | Unique identifier for the user                   |
+| username          | string        | User's username                                  |
+| email             | string        | User's email address                             |
+| password_digest   | string        | Encrypted password for user authentication       |
+| created_at        | datetime      | Timestamp for when the user was created          |
+| updated_at        | datetime      | Timestamp for when the user was last updated     |
+
+MEMBERS
+| Column Name | Data Type | Description                                            |
+|-------------|-----------|--------------------------------------------------------|
+| id          | integer   | Unique identifier for the member                       |
+| name        | string    | The name of the member                                  |
+| email       | text      | The email address of the member                         |
+| user_id     | integer   | The ID of the user associated with the member           |
+| project_id  | integer   | The ID of the project associated with the member        |
+| created_at  | datetime  | Timestamp for when the member was created               |
+| updated_at  | datetime  | Timestamp for when the member was last updated          |
+
+PROJECTS
+| Column Name | Data Type | Description                                 |
+|-------------|-----------|---------------------------------------------|
+| id          | integer   | Unique identifier for the project            |
+| name        | string    | The name of the project                      |
+| title       | string    | The title of the project                     |
+| description | string    | A brief description of the project           |
+| created_at  | datetime  | Timestamp for when the project was created   |
+| updated_at  | datetime  | Timestamp for when the project was last updated |
+
 
 ## Author
 Vivian Njoroge
