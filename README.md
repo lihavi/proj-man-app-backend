@@ -52,9 +52,9 @@ This application allows users to
 Database schema definitions
 
 USER
-|Column Name       | Data Type     | Description                                      |
-|-------------------|---------------|--------------------------------------------------|
-| id                | integer       | Unique identifier for the user                   |
+|Column Name       | Data Type     | Description                                     |
+|-------------------|---------------|------------------------------------------------|
+| id                | integer       | Unique identifier for the user                 |
 | username          | string        | User's username                                  |
 | email             | string        | User's email address                             |
 | password_digest   | string        | Encrypted password for user authentication       |
