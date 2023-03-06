@@ -83,6 +83,35 @@ PROJECTS
 | updated_at  | datetime  | Timestamp for when the project was last updated |
 
 
+ROUTES
+1. /users - Create a new user account
+## REQUEST BODY
+{
+   "username": "royce.nienow",
+   "email": "albert.ohara@gmail.com",
+   "password_digest": "$2a$12$XPOUizF978tvaOprIIpNZOtJpsrVQhQ.jLB2LiuhAHiUx5kfSfn/a",
+}
+
+2. Login- Log in a username and password
+## REQUEST BODY
+{
+   "email": "albert.ohara@gmail.com",
+   "password_digest": "$2a$12$XPOUizF978tvaOprIIpNZOtJpsrVQhQ.jLB2LiuhAHiUx5kfSfn/a",
+
+}
+3. /projects - List all projects
+{
+   "id": 4,
+   "name": "EGL",
+   "title": null,
+   "description": "Sint ipsa perspiciatis eligendi.",
+   "created_at": "2023-03-05T18:07:15.573Z",
+   "updated_at": "2023-03-05T18:07:15.573Z",
+   "status": "Completed",
+   "date":  "2023-02-22T00:00:00.000Z",
+   "author": "Juliana Rath"
+}
+
 ## Author
 Vivian Njoroge
 ## License
