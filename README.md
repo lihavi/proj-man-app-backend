@@ -19,8 +19,7 @@ Here are the links to the repositories
 ## Setup
 You can setup this repository by following this manual
 
-1. Clone the repository from [here](git@github.com:lihavi/proj-man-app-backend.git
-)
+1. Clone the repository git@github.com:lihavi/proj-man-app-backend.git
     
    
 2. Ensure the ruby gems are setup in your machine
