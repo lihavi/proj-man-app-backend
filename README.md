@@ -48,6 +48,27 @@ This application allows users to
 * A user should be able delete a project.
 * A user should be able to view all the status updates of the project.
 
+## Models
+Database schema definitions
+
+USER
+| COLUMN   | DATA
+TYPE
+          |
+DESCRIPTION
+      |          
+|---------|      
+--------------------------------------- ------|
+------------------------------------|
+| id 
+Integer
+           | Unique
+ Unique identifier.                  |
+| title       | String                                          | The first part of meme (intro)             |
+| message | String                                          | second part of meme (punchline)  |
+| updated_at    | Date      | The date the user was updated.        |
+| createdAt     | Date      | The date the user was created.        |
+
 ## Author
 Vivian Njoroge
 ## License

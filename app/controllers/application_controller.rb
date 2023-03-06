@@ -8,6 +8,7 @@ class ApplicationController < Sinatra::Base
     members = Member.all.order(created_at: :asc)
     members.to_json
   end
+
   post '/members' do
     member = Member.create(
       name: params[:name],
@@ -17,6 +18,7 @@ class ApplicationController < Sinatra::Base
     )
     member.to_json
   end
+  
   patch '/members/:id' do
     member = Member.find(params[:id])
     member.update(
