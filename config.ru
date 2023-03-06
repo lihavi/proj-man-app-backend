@@ -10,8 +10,6 @@ end
 use Rack::JSONBodyParser
 
 # our app
-use ProjectController
-use MemberController
-use UserController
+
 run ApplicationController
 
