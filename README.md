@@ -52,7 +52,7 @@ This application allows users to
 Database schema definitions
 
 USER
-|| Column Name       | Data Type     | Description                                      |
+|Column Name       | Data Type     | Description                                      |
 |-------------------|---------------|--------------------------------------------------|
 | id                | integer       | Unique identifier for the user                   |
 | username          | string        | User's username                                  |
