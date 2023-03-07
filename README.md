@@ -2,6 +2,10 @@
 
 The project management app  is a server-side API built using Ruby's Sinatra DSL The API follows the MVC design pattern, and it provides a backend for a React-based frontend. The API supports all CRUD operations, including POST, DELETE, and PATCH, as well as authentication for secure user access.
 
+## A sneek peek of the application on the browser
+<img src="Images/Screenshot from 2023-03-05 23-53-09.png" alt="Screenshot taken on 2023-02-21 09">
+
+
 Here are the links to the repositories
  * [Frontend repository](https://github.com/lihavi/proj-man-app)
  * [Backend repository](https://github.com/lihavi/proj-man-app-backend)
@@ -111,6 +115,7 @@ ROUTES
    "date":  "2023-02-22T00:00:00.000Z",
    "author": "Juliana Rath"
 }
+
 
 ## Author
 Vivian Njoroge
