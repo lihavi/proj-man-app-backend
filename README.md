@@ -6,9 +6,7 @@ The project management app  is a server-side API built using Ruby's Sinatra DSL 
 <img src="images/Screenshot from 2023-03-06 23-53-09.png" alt="">
 
 ## An image for the Available projects
-
-<img src="images/Screenshot from 2023-03-07 12-16-08.png" alt="">
-
+<img src="images/Screenshot from 2023-03-07 12-21-17.png" alt="">
 
 
 Here are the links to the repositories
